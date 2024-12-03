@@ -3,7 +3,7 @@ aw-importer-ical
 
 This extension imports data from ical files by watching a folder for changes.
 
-There is already a [watcher](https://github.com/ActivityWatch/aw-watcher-ical) that imports ical files, but it has some problems. For example, it doesn't handle recurring events. It also is kind of old, so it might not work out of the box. It supports only one calendar per file too. If the calendar already exists, it will delete the bucket and try again. One thing that this watcher is missing related to that other watcher is a live connection to google calendar, but I am not a fan of live connections when data imports work okay. I just find these live connections to be a bit risky and I don't want to have to deal with them.
+There is already a [watcher](https://github.com/ActivityWatch/aw-import-ical) that imports ical files, but it has some problems. For example, it doesn't handle recurring events. It also is kind of old, so it might not work out of the box. It supports only one calendar per file too. If the calendar already exists, it will delete the bucket and try again. One thing that this watcher is missing related to that other watcher is a live connection to google calendar, but I am not a fan of live connections when data imports work okay. I just find these live connections to be a bit risky and I don't want to have to deal with them.
 
 
 This watcher is currently in a early stage of development, please submit PRs if you find bugs!
